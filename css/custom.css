@@ -1,0 +1,8 @@
+.font-big {
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  color: #292929;
+  font-size: 26px;
+  line-height: 40px;
+}
+.bg-dark {background-color: #e4e4e4;}
