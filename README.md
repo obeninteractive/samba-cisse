@@ -1,3 +1,3 @@
-# Samba Cissé - Full-Stack Web Designer
+# Samba Cissé - Full-Stack Web, PM, Consultant, Startup
 
-Made with ♥ by [Samba Cissé](http://oben-interactive.fr)
+Made with ♥ by [Samba Cissé](http://sambacisse.com)
