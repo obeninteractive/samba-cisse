@@ -23,7 +23,7 @@ $(document).ready(function() { //variant-remove
     
 $('#drift-widget').load(function(){
     $('#drift-widget').contents().find('.footer').empty();
-})
+});
   
 
 
