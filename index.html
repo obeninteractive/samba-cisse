@@ -17,28 +17,22 @@
         <link href="css/theme-startup.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
         <link href='https://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600' rel='stylesheet' type='text/css'>
- <script>
-!function() {
-  var t;
-  if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0, 
-  t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
-  t.factory = function(e) {
-    return function() {
-      var n;
-      return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
-    };
-  }, t.methods.forEach(function(e) {
-    t[e] = t.factory(e);
-  }), t.load = function(t) {
-    var e, n, o, i;
-    e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"), 
-    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js", 
-    n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
-  });
-}();
-drift.SNIPPET_VERSION = '0.3.1';
-drift.load('3f6gwh2x4wps');
+      <script>
+  window.fcSettings = {
+    token: "7e3eb307-4fbe-48da-95d9-be8912df51df",
+    host: "https://wchat.freshchat.com",
+    externalId: "john.doe1987",     // user’s id unique to your system
+    firstName: "John",              // user’s first name
+    lastName: "Doe",                // user’s last name
+    email: "john.doe@gmail.com",    // user’s email address
+    phone: "8668323090",            // phone number without country code
+    phoneCountryCode: "+1"          // phone’s country code
+  };
 </script>
+<script src="https://wchat.freshchat.com/js/widget.js" async></script>
+
+      
+      
     </head>
     <body>
 
