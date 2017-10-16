@@ -5,7 +5,9 @@ var mr_firstSectionHeight,
     mr_navFixed = false,
     mr_outOfSight = false,
     mr_floatingProjectSections,
-    mr_scrollTop = 0;
+    mr_scrollTop = 0,
+    $bydrift;
+
 
 $(document).ready(function() { //variant-remove
     "use strict";
@@ -19,8 +21,9 @@ $(document).ready(function() { //variant-remove
 		});
     }
   // modify drift iframe
+    $bydrift = $("#drift-widget").contents().find("div._3RTrQ3IDR23myw-Pih9iTm");
 
-  var $bydrift = $("#drift-widget").contents().find("._3cFC78pAuQUUGXB0th8eZP");
+
   $bydrift.hide();
 
 
