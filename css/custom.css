@@ -5,4 +5,6 @@
   font-size: 26px;
   line-height: 40px;
 }
-.bg-dark {background-color: #e4e4e4;}
+.bg-dark {background-color: #ffffff;}
+
+footer .container span {color: #999999;}
