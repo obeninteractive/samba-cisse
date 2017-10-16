@@ -5,8 +5,7 @@ var mr_firstSectionHeight,
     mr_navFixed = false,
     mr_outOfSight = false,
     mr_floatingProjectSections,
-    mr_scrollTop = 0,
-    $bydrift;
+    mr_scrollTop = 0;
 
 
 $(document).ready(function() { //variant-remove
@@ -21,10 +20,9 @@ $(document).ready(function() { //variant-remove
 		});
     }
   // modify drift iframe
-    $bydrift = $("#drift-widget").contents().find("div._3RTrQ3IDR23myw-Pih9iTm");
+    $('#drift-widget').contents().find('._3RTrQ3IDR23myw-Pih9iTm').hide();
 
-
-  $bydrift.hide();
+  
 
 
     // Update scroll variable for scrolling functions
