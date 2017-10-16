@@ -22,7 +22,7 @@ $(document).ready(function() { //variant-remove
   // modify drift iframe
     
 $('#drift-widget').load(function(){
-    $('#drift-widget').contents().find('.footer').empty();
+    $('#drift-widget').contents().find('.footer').hide();
 });
   
 
