@@ -19,13 +19,6 @@ $(document).ready(function() { //variant-remove
 			speed: 800
 		});
     }
-  // modify drift iframe
-    
-$('#drift-widget').load(function(){
-    $('#drift-widget').contents().find('.footer').hide();
-});
-  
-
 
     // Update scroll variable for scrolling functions
 
