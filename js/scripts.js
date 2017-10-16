@@ -20,8 +20,10 @@ $(document).ready(function() { //variant-remove
 		});
     }
   // modify drift iframe
-    $('#drift-widget').contents().find('._3RTrQ3IDR23myw-Pih9iTm').hide();
-
+    
+$('#drift-widget').load(function(){
+    $('#drift-widget').contents().find('.footer').empty();
+})
   
 
 
