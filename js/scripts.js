@@ -20,9 +20,10 @@ $(document).ready(function() { //variant-remove
     }
   // modify drift iframe
 
-  var $bydrift = $("#drift-widget").contents().find(".minimal _3cFC78pAuQUUGXB0th8eZP");
+  var $bydrift = jQuery("#drift-widget").contents().find("._3cFC78pAuQUUGXB0th8eZP");
 
 $bydrift.hide();
+
 
     // Update scroll variable for scrolling functions
 
