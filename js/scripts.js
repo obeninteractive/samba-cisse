@@ -19,10 +19,10 @@ $(document).ready(function() { //variant-remove
 		});
     }
   // modify drift iframe
-  $('iframe').load( function() {
-    $('iframe').contents().find("div.minimal _3cFC78pAuQUUGXB0th8eZP")
-      .append($("<style type='text/css'>  .hide-content{display:none;}  </style>"));
-});
+
+  var $byDrift = $("#drift-widget").contents().find("div.minimal _3cFC78pAuQUUGXB0th8eZP");
+
+$byDrift.hide();
 
     // Update scroll variable for scrolling functions
 
