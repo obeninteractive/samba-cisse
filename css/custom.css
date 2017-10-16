@@ -5,6 +5,14 @@
   font-size: 26px;
   line-height: 40px;
 }
+.font-slim {
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  color: #292929;
+  font-size: 26px;
+  line-height: 40px;
+}
+
 .bg-dark {background-color: #ffffff;}
 
 footer .container span {color: #999999;}
