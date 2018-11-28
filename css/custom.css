@@ -13,7 +13,7 @@
   line-height: 40px;
 }
 
-.btn-bg-graylight { background-color: #EAEAEA; color: #292929;}
+.btn-bg-graylight { background-color: #EAEAEA; color: #292929 !important;}
 
 .bg-dark {background-color: #ffffff;}
 
