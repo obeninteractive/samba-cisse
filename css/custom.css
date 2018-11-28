@@ -15,6 +15,9 @@
 
 .btn-bg-graylight { background-color: #EAEAEA; color: #292929 !important;}
 
+.btn-bg-graylight:hover { background-color: #EAEAEA; color: #00bde8 !important;}
+
+
 .bg-dark {background-color: #ffffff;}
 
 footer .container span {color: #999999;}
