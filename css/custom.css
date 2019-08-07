@@ -12,6 +12,8 @@
   font-size: 26px;
   line-height: 40px;
 }
+.btn-bg-bluelight { background-color: #00bde8; color: #292929 !important;}
+.btn-bg-bluelight:hover { background-color: #00bde8; color: #00bde8 !important;}
 
 .btn-bg-graylight { background-color: #EAEAEA; color: #292929 !important;}
 
