@@ -1,3 +1,14 @@
+.h1-alt {
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  color: #292929;
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: 5px !important;
+}
+.h1-font-alt {
+  color: #00CCFF !important;
+}
 .font-big {
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
@@ -13,7 +24,24 @@
   line-height: 40px;
 }
 .btn-bg-bluelight { border : 1px solid #00bde8; background-color: #00bde8; color: #ffffff !important;}
-.btn-bg-bluelight:hover { background-color: #00bde8; color: #ffffff !important;}
+.btn-bg-bluelight:hover { background-color: #00CCFF; color: #ffffff !important;}
+
+.btn-alt-light {
+  color: #00bde8 !important;
+  border: 2px solid #00bde8 !important;
+  background-color: #F8F8F8 !important;
+}
+.btn-alt-light:hover {
+  background-color: #e0fff8 !important;
+}
+.btn:hover {
+  background-color: #ffffff !important;
+}
+.btn-alt {
+  color: #65617D !important;
+  border: 2px solid #65617D !important;
+}
+
 
 .btn-bg-graylight { background-color: #EAEAEA; color: #292929 !important;}
 
