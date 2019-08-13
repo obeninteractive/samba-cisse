@@ -7,7 +7,7 @@
   letter-spacing: 5px !important;
 }
 .h1-font-alt {
-  color: #00CCFF !important;
+  color: #4B4B4C !important;
 }
 .font-big {
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -40,6 +40,10 @@
 .btn-alt {
   color: #65617D !important;
   border: 2px solid #65617D !important;
+}
+.btn-alt-b {
+  color: #00bde8 !important;
+  border: 2px solid #00bde8 !important;
 }
 
 
